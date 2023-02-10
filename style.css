@@ -155,13 +155,11 @@ body{
 }
 .design-img img{
     transition:  all 0.5s ease;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     position: relative;
     display: block;
-    margin-left: 78px;
-    margin-right: auto;
-
+    margin: 0 auto;
 }
 .design-item:hover img{
     transform: scale(1.2);
@@ -171,7 +169,7 @@ body{
     position: absolute;
     z-index: 1;
     top: 10px;
-    left: 60px;
+    left: 67px;
     background: var(--dark);
     color: #fff;
     padding: 0.25rem 0.5rem
@@ -219,14 +217,14 @@ body{
 }
 .blog-img img{
     width: 350px;
-    height: 450px;
+    height: 475px;
     display: inline-block;
     margin: 67px auto;
     text-align: center;
 }
 .blog-img span{
     position: absolute;
-    bottom: 25px;
+    bottom: 85px;
     right: 25px;
     background: var(--dark);
     color: #fff;
@@ -250,7 +248,7 @@ body{
 }
 .blog-text h2{
     font-family: var(--Comfortaa);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-size: 1.65rem;
     font-weight: 500;
 }
@@ -390,8 +388,5 @@ footer{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
-
 
 

@@ -221,6 +221,8 @@ body{
     width: 350px;
     height: 450px;
     display: inline-block;
+    margin: 67px auto;
+    text-align: center;
 }
 .blog-img span{
     position: absolute;
